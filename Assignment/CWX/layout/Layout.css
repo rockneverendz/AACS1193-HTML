@@ -166,31 +166,31 @@ body {
 #TVSeries {
 	grid-column: 1;
 	grid-row: 1;
-	background-image: url(Image/TVSeries.svg);
+	background-image: url(../Style/Image/TVSeries.svg);
 }
 
 #Movies {
 	grid-column: 2;
 	grid-row: 1;
-	background-image: url(Image/Movies.svg);
+	background-image: url(../Style/Image/Movies.svg);
 }
 
 #Promotions {
 	grid-column: 3;
 	grid-row: 1;
-	background-image: url(Image/Promotions.svg);
+	background-image: url(../Style/Image/Promotions.svg);
 }
 
 #About {
 	grid-column: 4;
 	grid-row: 1;
-	background-image: url(Image/About.svg);
+	background-image: url(../Style/Image/About.svg);
 }
 
 #Account {
 	grid-column: 5;
 	grid-row: 1;
-	background-image: url(Image/Account.svg);
+	background-image: url(../Style/Image/Account.svg);
 }
 
 
