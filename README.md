@@ -1,5 +1,4 @@
-# DySpee
-DySpee Temp
+# AACS1193 WEB DESIGN AND DEVELOPMENT ASSIGNMENT
 
 Yeah if you're a random stranger on the internet who stumbled up on this project,
 
