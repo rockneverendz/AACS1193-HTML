@@ -43,6 +43,7 @@ input[type="number"] {
 	width: 50px;
 }
 
+
 /* Order Summary Table */
 
 .ordTable {
@@ -74,6 +75,10 @@ em {
 }
 
 img[src="images/blu-ray-icon.ico"] {
+	width: 40px;
+}
+
+img[src="images/DVD-icon.png"] {
 	width: 40px;
 }
 

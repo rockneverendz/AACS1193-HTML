@@ -14,7 +14,7 @@
 </head>
 
 
-<body>
+<body onload="load()">
 
 	<div class="header-bar">
 		<div class="header-container">
@@ -93,17 +93,17 @@
 							<p>Avengers: Infinity War(2018)</p>
 						</td>
 						<td>
-							<input type="radio" name="selecteditem" value="bluray" onclick="calculateTotal()" checked/>
+							<input type="radio" name="selecteditem1" value="bluray" onclick="calculateTotal1()" onchange="subTotal()" checked />
 							<label><img src="images/blu-ray-logo.png"/></label>
 							<br/>
-							<input type="radio" name="selecteditem" value="dvd" onclick="calculateTotal()" />
+							<input type="radio" name="selecteditem1" value="dvd" onclick="calculateTotal1()" onchange="subTotal()" />
 							<label><img src="images/dvd-logo.png"/></label>
 						</td>
 						<td>
-							<input type="number" id="number" value="1" min="1" onchange="calculateTotal()" />
+							<input type="number" id="myNumber1" value="1" min="1" onclick="calculateTotal1()" onchange="subTotal()" />
 						</td>
 						<td>
-							<em><div id="totalPrice">RM 30.00</div></em>
+							<em><div class="totalPrice1"></div></em>
 						</td>
 					</tr>
 
@@ -117,15 +117,18 @@
 							<p>The Avengers (2012)</p>
 						</td>
 						<td>
-							<input type="radio" name="dics" value="bul-ray" checked/>
+							<input type="radio" name="selecteditem2" value="bluray" onclick="calculateTotal2()" onchange="subTotal()" checked />
 							<label><img src="images/blu-ray-logo.png"/></label>
-							<br/> <input type="radio" name="dics" value="dvd" />
+							<br/> <input type="radio" name="selecteditem2" value="dvd" onclick="calculateTotal2()" onchange="subTotal()" />
 							<label><img src="images/dvd-logo.png"/></label>
 						</td>
 						<td>
-							<input type="number" name="quantity" value="1" min="1" max="50" maxlength="50" />
+							<input type="number" id="myNumber2" value="1" min="1" onclick="calculateTotal2()" onchange="subTotal()" />
+
 						</td>
-						<td><em>RM 30.00</em></td>
+						<td>
+							<em><div class="totalPrice2"></div></em>
+						</td>
 					</tr>
 
 
@@ -138,18 +141,20 @@
 							<p>Avengers: Age of Ultron (2015)</p>
 						</td>
 						<td>
-							<input type="radio" name="dics2" value="bul-ray" checked/>
+							<input type="radio" name="selecteditem3" value="bluray" onclick="calculateTotal3()" onchange="subTotal()" checked />
 							<label><img src="images/blu-ray-logo.png"/></label>
 							<br/>
-							<input type="radio" name="dics2" value="dvd" />
+							<input type="radio" name="selecteditem3" value="dvd" onclick="calculateTotal3()" onchange="subTotal()" />
 							<label><img src="images/dvd-logo.png"/></label>
 
 						</td>
 
 						<td>
-							<input type="number" name="quantity" value="1" min="1" max="50" maxlength="50" />
+							<input type="number" id="myNumber3" value="1" min="1" onclick="calculateTotal3()" onchange="subTotal()" />
 						</td>
-						<td><em>RM 30.00</em></td>
+						<td>
+							<em><div class="totalPrice3"></div></em>
+						</td>
 					</tr>
 				</table>
 
@@ -170,30 +175,51 @@
 				</tr>
 				<tr>
 					<td>Avengers: Infinity War(2018)</td>
-					<td><img src="images/blu-ray-icon.ico" /></td>
-					<td>1</td>
-					<td><em>RM 30.00</em></td>
+					<td>
+						<div id="dicsImg1"></div>
+					</td>
+					<!-- -------------------- -->
+					<td>
+						<div id="qitem1"></div>
+					</td>
+					<td>
+						<em><div class="totalPrice1"></div></em>
+					</td>
 				</tr>
 				<tr>
 					<td>The Avengers (2012)</td>
-					<td><img src="images/blu-ray-icon.ico" /></td>
-					<td>1</td>
-					<td><em>RM 30.00</em></td>
+					<td>
+						<div id="dicsImg2"></div>
+					</td>
+					<td>
+						<div id="qitem2"></div>
+					</td>
+					<td>
+						<em><div class="totalPrice2"></div></em>
+					</td>
 				</tr>
 				<tr>
 					<td>Avengers: Age of Ultron (2015)</td>
-					<td><img src="images/blu-ray-icon.ico" /></td>
-					<td>1</td>
-					<td><em>RM 30.00</em></td>
+					<td>
+						<div id="dicsImg3"></div>
+					</td>
+					<td>
+						<div id="qitem3"></div>
+					</td>
+					<td>
+						<em><div class="totalPrice3"></div></em>
+					</td>
 				</tr>
 				<tr>
 					<td colspan="3">Shipping fee:</td>
-					<td><em>RM 0.00 (FREE)</em></td>
+					<td><em>RM 0.00 (FREE!)</em></td>
 
 				</tr>
 				<tr>
 					<td colspan="3"><em>Subtotal:</em></td>
-					<td><em>RM 90.00</em></td>
+					<td>
+						<em><div id="subTotal"></div></em>
+					</td>
 				</tr>
 			</table>
 
