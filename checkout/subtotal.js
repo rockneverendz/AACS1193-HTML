@@ -48,9 +48,9 @@ function calculateTotal1() {
 	n = itemPrice * quantity;
 
 	if (itemPrice == 20) {
-		document.getElementById('dicsImg1').innerHTML = "<img src='images/DVD-icon.png' />";
+		document.getElementById('dicsImg1').innerHTML = "<img src='image/DVD-icon.png' />";
 	} else if (itemPrice == 30) {
-		document.getElementById('dicsImg1').innerHTML = "<img src='images/blu-ray-icon.ico' />";
+		document.getElementById('dicsImg1').innerHTML = "<img src='image/blu-ray-icon.ico' />";
 	}
 
 	document.getElementById('qitem1').innerHTML = quantity;
@@ -106,9 +106,9 @@ function calculateTotal2() {
 	n = itemPrice * quantity;
 
 	if (itemPrice == 20) {
-		document.getElementById('dicsImg2').innerHTML = "<img src='images/DVD-icon.png' />";
+		document.getElementById('dicsImg2').innerHTML = "<img src='image/DVD-icon.png' />";
 	} else if (itemPrice == 30) {
-		document.getElementById('dicsImg2').innerHTML = "<img src='images/blu-ray-icon.ico' />";
+		document.getElementById('dicsImg2').innerHTML = "<img src='image/blu-ray-icon.ico' />";
 	}
 
 	document.getElementById('qitem2').innerHTML = quantity;
@@ -159,9 +159,9 @@ function calculateTotal3() {
 	n = itemPrice * quantity;
 
 	if (itemPrice == 20) {
-		document.getElementById('dicsImg3').innerHTML = "<img src='images/DVD-icon.png' />";
+		document.getElementById('dicsImg3').innerHTML = "<img src='image/DVD-icon.png' />";
 	} else if (itemPrice == 30) {
-		document.getElementById('dicsImg3').innerHTML = "<img src='images/blu-ray-icon.ico' />";
+		document.getElementById('dicsImg3').innerHTML = "<img src='image/blu-ray-icon.ico' />";
 	}
 
 	document.getElementById('qitem3').innerHTML = quantity;

@@ -1,5 +1,5 @@
 body {
-	background-image: url(../Image/minimalist-space-z8.jpg);
+	background-image: url(../../layout/image/background.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -74,11 +74,11 @@ em {
 	color: #FFFF00;
 }
 
-img[src="images/blu-ray-icon.ico"] {
+img[src="image/blu-ray-icon.ico"] {
 	width: 40px;
 }
 
-img[src="images/DVD-icon.png"] {
+img[src="image/DVD-icon.png"] {
 	width: 40px;
 }
 
