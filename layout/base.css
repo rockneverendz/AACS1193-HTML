@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+body {
+	background-image: url(image/background.jpg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 /* HEADER BAR */
 
 .header-bar {
