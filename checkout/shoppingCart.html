@@ -4,9 +4,9 @@
 <head>
 	<meta charset="uft-8">
 	<title>Shopping Cart|Dyspee Video</title>
-	<link href="../Logo.png" rel="icon" />
-	<link href="../Layout.css" rel="stylesheet" />
-	<link href="cartStyle.css" rel="stylesheet" />
+	<link href="../layout/image/DySpee.png" rel="icon" />
+	<link href="../layout/Layout.css" rel="stylesheet" />
+	<link href="style/cartStyle.css" rel="stylesheet" />
 	<script src="subtotal.js"></script>
 
 	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
@@ -18,48 +18,48 @@
 
 	<div class="header-bar">
 		<div class="header-container">
-			<div class="header-header"><a href="../../BCJW/HTML/DySpee.html"><img src="../Style/Image/DySpee.png" /></a></div>
-			<div class="header-title"><img src="../Style/Image/DySpeeOnline.png" /></div>
+			<div class="header-header"><a href="../video/DySpee.html"><img src="../layout/image/DySpee.png" /></a></div>
+			<div class="header-title"><img src="../layout/image/DySpeeOnline.png" /></div>
 			<div class="header-searchbar">
 				<form action="/action_page.php">
 					<input type="text" placeholder="Search.." name="search">
-					<button type="submit"><img width="22px" src="../Style/Image/search.png"/></button>
+					<button type="submit"><img width="22px" src="../layout/image/search.png"/></button>
 				</form>
 			</div>
 			<div class="header-cart">
-				<a href="../../SCY/ShoppingCart/shoppingCart.html"><img src="../Style/Image/shopping-cart.png"/></a>
+				<a href="../checkout/shoppingCart.html"><img src="../layout/image/shopping-cart.png"/></a>
 			</div>
 		</div>
 	</div>
 	<div class="nav-bar">
 		<div class="nav-container">
-			<a href="../../BCJW/HTML/TVSeries.html">
+			<a href="../video/TVSeries.html">
 				<div class="nav-item" id="TVSeries">TV Series
 				</div>
 			</a>
-			<a href="../../SCY/TopRating/topRating.html">
+			<a href="../video/topRating.html">
 				<div class="nav-item" id="Movies">Movies
 				</div>
 			</a>
-			<a href="../../CWX/Promotion/promotion.html">
+			<a href="../promo/promotion.html">
 				<div class="nav-item" id="Promotions">Promotions
 				</div>
 			</a>
-			<a href="../../CWX/AboutUs/AboutUs.html">
+			<a>
 				<div class="nav-item" id="About">About
 					<div class="nav-item-dropdown">
-						<a href="../../CWX/AboutUs/AboutUs.html">About Us</a><br/><br/>
-						<a href="../../CWX/ContactUs/ContactUs.html">Contact Us</a><br/><br/>
-						<a href="../../CWX/FAQ/faq.html">FAQ</a><br/>
+						<a href="../about/AboutUs.html">About Us</a><br/><br/>
+						<a href="../about/ContactUs.html">Contact Us</a><br/><br/>
+						<a href="../about/faq.html">FAQ</a><br/>
 					</div>
 				</div>
 			</a>
-			<a href="../../BCJW/HTML/Settings.html">
+			<a>
 				<div class="nav-item" id="Account">Account
 					<div class="nav-item-dropdown">
-						<a href="../../BCJW/HTML/SignUp.html">Sign Up</a><br/><br/>
-						<a href="../../BCJW/HTML/SignIn.html">Sign In</a><br/><br/>
-						<a href="../../BCJW/HTML/Settings.html">Settings</a><br/>
+						<a href="../account/SignUp.html">Sign Up</a><br/><br/>
+						<a href="../account/SignIn.html">Sign In</a><br/><br/>
+						<a href="../account/Settings.html">Settings</a><br/>
 					</div>
 				</div>
 
@@ -89,15 +89,15 @@
 							<button type="button" class="trash">
 								<i class="fas fa-trash-alt"></i>
 							</button>
-							<img src="images/poster1.jpg" />
+							<img src="image/poster1.jpg" />
 							<p>Avengers: Infinity War(2018)</p>
 						</td>
 						<td>
 							<input type="radio" name="selecteditem1" value="bluray" onclick="calculateTotal1()" onchange="subTotal()" checked />
-							<label><img src="images/blu-ray-logo.png"/></label>
+							<label><img src="image/blu-ray-logo.png"/></label>
 							<br/>
 							<input type="radio" name="selecteditem1" value="dvd" onclick="calculateTotal1()" onchange="subTotal()" />
-							<label><img src="images/dvd-logo.png"/></label>
+							<label><img src="image/dvd-logo.png"/></label>
 						</td>
 						<td>
 							<input type="number" id="myNumber1" value="1" min="1" onclick="calculateTotal1()" onchange="subTotal()" />
@@ -113,14 +113,14 @@
 							<button type="button" class="trash">
 								<i class="fas fa-trash-alt"></i>
 							</button>
-							<img src="images/poster2.jpg" />
+							<img src="image/poster2.jpg" />
 							<p>The Avengers (2012)</p>
 						</td>
 						<td>
 							<input type="radio" name="selecteditem2" value="bluray" onclick="calculateTotal2()" onchange="subTotal()" checked />
-							<label><img src="images/blu-ray-logo.png"/></label>
+							<label><img src="image/blu-ray-logo.png"/></label>
 							<br/> <input type="radio" name="selecteditem2" value="dvd" onclick="calculateTotal2()" onchange="subTotal()" />
-							<label><img src="images/dvd-logo.png"/></label>
+							<label><img src="image/dvd-logo.png"/></label>
 						</td>
 						<td>
 							<input type="number" id="myNumber2" value="1" min="1" onclick="calculateTotal2()" onchange="subTotal()" />
@@ -137,15 +137,15 @@
 							<button type="button" class="trash">
 								<i class="fas fa-trash-alt"></i>
 							</button>
-							<img src="images/poster3.jpg" />
+							<img src="image/poster3.jpg" />
 							<p>Avengers: Age of Ultron (2015)</p>
 						</td>
 						<td>
 							<input type="radio" name="selecteditem3" value="bluray" onclick="calculateTotal3()" onchange="subTotal()" checked />
-							<label><img src="images/blu-ray-logo.png"/></label>
+							<label><img src="image/blu-ray-logo.png"/></label>
 							<br/>
 							<input type="radio" name="selecteditem3" value="dvd" onclick="calculateTotal3()" onchange="subTotal()" />
-							<label><img src="images/dvd-logo.png"/></label>
+							<label><img src="image/dvd-logo.png"/></label>
 
 						</td>
 
@@ -223,7 +223,7 @@
 				</tr>
 			</table>
 
-			<a href="../Payment form/payment.html">
+			<a href="payment.html">
 				<button type="submit" id="cekOut">Proceed to Checkout</button>
 			</a>
 
@@ -268,12 +268,12 @@
 			</div>
 
 			<div class="footer-box" id="foot4">
-				<img src="../Logo.png" />
+				<img src="../layout/image/DySpee.png" />
 
 			</div>
 
 			<div class="footer-box" id="foot5">
-				<img src="../Image/Logo-char.png" />
+				<img src="../layout/image/DySpeeOnline.png" />
 
 			</div>
 		</div>
