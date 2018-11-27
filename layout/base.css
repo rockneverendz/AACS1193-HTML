@@ -247,11 +247,11 @@ div p {
 	padding-left: 100px;
 }
 
-footer img[src="/layout/image/DySpee.png"] {
+footer img[src="../layout/image/DySpee.png"] {
 	width: 100%;
 }
 
-footer img[src="/layout/image/DySpeeOnline.png"] {
+footer img[src="../layout/image/DySpeeOnline.png"] {
 	position: relative;
 	top: 35px;
 	right: 70px;
