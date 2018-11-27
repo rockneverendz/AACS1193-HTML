@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-body {
-	background-image: url(image/background.jpg);
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
 /* HEADER BAR */
 
 .header-bar {
@@ -143,31 +135,31 @@ body {
 #TVSeries {
 	grid-column: 1;
 	grid-row: 1;
-	background-image: url(Image/TVSeries.svg);
+	background-image: url(image/TVSeries.svg);
 }
 
 #Movies {
 	grid-column: 2;
 	grid-row: 1;
-	background-image: url(Image/Movies.svg);
+	background-image: url(image/Movies.svg);
 }
 
 #Promotions {
 	grid-column: 3;
 	grid-row: 1;
-	background-image: url(Image/Promotions.svg);
+	background-image: url(image/Promotions.svg);
 }
 
 #About {
 	grid-column: 4;
 	grid-row: 1;
-	background-image: url(Image/About.svg);
+	background-image: url(image/About.svg);
 }
 
 #Account {
 	grid-column: 5;
 	grid-row: 1;
-	background-image: url(Image/Account.svg);
+	background-image: url(image/Account.svg);
 }
 
 
@@ -177,7 +169,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	margin: 0pt auto auto auto;
 	font-size: 16px;
-	background-image: url(Image/minimalist-space-z8.jpg);
+	background-image: url(image/background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
@@ -255,11 +247,11 @@ div p {
 	padding-left: 100px;
 }
 
-footer img[src="../Style/Image/DySpee.png"] {
+footer img[src="/layout/image/DySpee.png"] {
 	width: 100%;
 }
 
-footer img[src="../Style/Image/DySpeeOnline.png"] {
+footer img[src="/layout/image/DySpeeOnline.png"] {
 	position: relative;
 	top: 35px;
 	right: 70px;
