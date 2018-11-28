@@ -1,10 +1,4 @@
-body {
-	background-image: url(../../layout/image/background.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.container {
+.article-container {
 	display: grid;
 	color: #fff;
 	grid-template-columns: 60% 40%;
