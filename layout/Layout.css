@@ -1,35 +1,4 @@
-@charset "utf-8";
-@font-face {
-	font-family: 'Roboto Condensed';
-	font-style: normal;
-	font-weight: 400;
-	src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://fonts.gstatic.com/s/robotocondensed/v16/ieVl2ZhZI2eCN5jzbjEETS9weq8-19-7DRs5.woff2) format('woff2');
-	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-
-/*Body Layout*/
-
-* {
-	font-family: 'Roboto Condensed', sans-serif;
-
-}
-
-
-body {
-	margin: 0 auto;
-	padding: 0;
-	background-color: #111;
-	/*max-width: 1150px;
-    min-width: 640px;*/
-	font-size: 15px;
-
-	/*  temporRY BALIAO AH */
-	/*background-image: url(../Image/minimalist-space-z8.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;*/
-}
-
-/*---Header Layout-----*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /* HEADER BAR */
 
@@ -95,7 +64,7 @@ body {
 	cursor: pointer;
 }
 
-.header-cart {
+.header-cart{
 	margin: auto;
 }
 
@@ -166,43 +135,94 @@ body {
 #TVSeries {
 	grid-column: 1;
 	grid-row: 1;
-	background-image: url(Image/TVSeries.svg);
+	background-image: url(image/TVSeries.svg);
 }
 
 #Movies {
 	grid-column: 2;
 	grid-row: 1;
-	background-image: url(Image/Movies.svg);
+	background-image: url(image/Movies.svg);
 }
 
 #Promotions {
 	grid-column: 3;
 	grid-row: 1;
-	background-image: url(Image/Promotions.svg);
+	background-image: url(image/Promotions.svg);
 }
 
 #About {
 	grid-column: 4;
 	grid-row: 1;
-	background-image: url(Image/About.svg);
+	background-image: url(image/About.svg);
 }
 
 #Account {
 	grid-column: 5;
 	grid-row: 1;
-	background-image: url(Image/Account.svg);
+	background-image: url(image/Account.svg);
 }
 
 
-.container {
-	/* width: 100%; */
-	margin: auto;
-	/* padding: 0; */
+/* BODY */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0pt auto auto auto;
+	font-size: 16px;
+	background-image: url(image/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+a {
+	color: rgb(153, 204, 255);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	background-color: rgba(255, 255, 255, 0.1)
+}
+
+.article-container {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-top: 15px;
+	padding-bottom: 15px;
 	min-width: 600pt;
 	max-width: 920pt;
 	width: 95%;
+	margin: auto;
+	justify-content: space-around;
 }
 
+.article-item {
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	box-shadow: 0 0 20px 0px white;
+	font-size: 1.5em;
+	text-align: left;
+	background-repeat: no-repeat;
+	background-position: 95% center;
+}
+
+div header {
+	background-color: rgba(0, 0, 200, 0.5);
+	padding: 10px;
+	font-size: 30px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+div article {
+	padding: 10px;
+}
+
+div h1 {}
+
+div p {
+	font-size: 15px;
+	line-height: 1.5em;
+}
 
 /* Footer layout and style */
 

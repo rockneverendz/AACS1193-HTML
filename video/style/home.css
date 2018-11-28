@@ -1,3 +1,9 @@
+.article-container {
+	display: grid;
+	grid-row-gap: 10px;
+	grid-template-columns: 70% 25%;
+}
+
 #News img {
 	float: left;
 	width: 150px;
