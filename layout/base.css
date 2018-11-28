@@ -193,9 +193,6 @@ a:hover {
 	max-width: 920pt;
 	width: 95%;
 	margin: auto;
-	display: grid;
-	grid-row-gap: 10px;
-	grid-template-columns: 70% 25%;
 	justify-content: space-around;
 }
 
@@ -247,11 +244,11 @@ div p {
 	padding-left: 100px;
 }
 
-footer img[src="../layout/image/DySpee.png"] {
+.footer img[src="../layout/image/DySpee.png"] {
 	width: 100%;
 }
 
-footer img[src="../layout/image/DySpeeOnline.png"] {
+.footer img[src="../layout/image/DySpeeOnline.png"] {
 	position: relative;
 	top: 35px;
 	right: 70px;

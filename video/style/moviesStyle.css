@@ -1,18 +1,12 @@
-body {
-	background-image: url(../../layout/image/background.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
 /*------Container Layout------*/
 
-.container {
+.article-container {
 	/* width: 100%; */
 	/* padding: 0; */
 	display: grid;
 }
 
-.container h3 {
+.article-container h3 {
 	color: aliceblue;
 }
 

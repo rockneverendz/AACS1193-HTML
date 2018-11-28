@@ -1,13 +1,6 @@
-body {
-	background-image: url(../image/Avengres.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-
 /*------Container Layout------*/
 
-.container {
+.article-container {
 	display: grid;
 	grid-template-columns: 70% 30%;
 	color: #fff;
